@@ -31,11 +31,11 @@ Installation
 
    * Install IE versions 6, 7, 8 and 9.
 
-         curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
+         curl -s https://raw.github.com/sudhirvkumar/ievms/master/ievms.sh | bash
 
    * Install specific IE versions (IE7 and IE9 only for example):
 
-         curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | IEVMS_VERSIONS="7 9" bash
+         curl -s https://raw.github.com/sudhirvkumar/ievms/master/ievms.sh | IEVMS_VERSIONS="7 9" bash
 
 3. Launch Virtual Box.
 
@@ -71,7 +71,7 @@ Specifying the install path
 
 To specify where the VMs are installed, use the INSTALL_PATH variable:
 
-    curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | INSTALL_PATH="/Path/to/.ievms" bash
+    curl -s https://raw.github.com/sudhirvkumar/ievms/master/ievms.sh | INSTALL_PATH="/Path/to/.ievms" bash
 
 
 Features
